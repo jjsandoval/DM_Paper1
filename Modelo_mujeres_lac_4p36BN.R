@@ -165,7 +165,7 @@ rm(list=ls(all=TRUE))
       aes(age, log(mx), color = county), size = 2) + ylim(-40,0)+ xlim(20,80)+
       theme_bw(base_size = 12) + theme(legend.position="none")+ 
       labs(y="Log tasa de mortalidad", x= "Grupos de Edad") + 
-      ggtitle("Estimación Tasa de Mortalidad DM mujeres 2017, Alexander et al, 2017")
+      ggtitle("Estimación Tasa de Mortalidad DM mujeres 2017")
    #setwd("~/graficos_36_ciudades")
    #ggsave("Muj_cidGZ2017_pois.png",  width = 10, height = 6)
     #
